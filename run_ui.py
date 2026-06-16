@@ -5,7 +5,7 @@ import os
 import sys
 
 PORT = 8000
-DIRECTORY = "ui"
+DIRECTORY = "."
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
